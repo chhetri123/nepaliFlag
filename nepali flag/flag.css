@@ -1,0 +1,157 @@
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 28%,
+    #bd70ff 59%,
+    #b51fff 100%
+  );
+}
+
+.container {
+  transform: scale(0.9);
+  background-image: url(download.png);
+  background-size: 100% 100%;
+  color: red;
+  height: 500px;
+  width: 600px;
+
+  position: absolute;
+  border: none;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding-left: 30px;
+  -webkit-box-reflect: below 5px
+    linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+  filter: url(#wavy);
+}
+.flag {
+  margin-left: 35px;
+}
+.triangle-1 {
+  background-color: blue;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  z-index: 999;
+  clip-path: polygon(0 2%, 72% 52%, 27% 52%, 86% 115%, 0% 100%, 0% 0%);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 50px 4px;
+}
+.triangle-2 {
+  margin: 30px 0 0 10px;
+  background-color: crimson;
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 456px;
+  z-index: 999;
+
+  clip-path: polygon(0 0, 83% 48%, 26% 48%, 83% 100%, 0 100%, 0% 50%);
+}
+.cm {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 25%;
+  left: 30px;
+  /* background: white; */
+}
+.ss {
+  width: 100px;
+  height: 100px;
+
+  position: absolute;
+  top: 60%;
+  left: 35px;
+}
+.circle-moon {
+  position: relative;
+}
+.circle {
+  width: 110px;
+  height: 90px;
+  background: white;
+  border-radius: 50%;
+}
+.circle:before {
+  content: '';
+  position: absolute;
+  top: -20%;
+  width: 110px;
+  height: 90px;
+  background: crimson;
+  border-radius: 50%;
+}
+.moon {
+  position: absolute;
+  top: -38%;
+  left: -109px;
+  width: 322px;
+  height: 334px;
+  background-color: white;
+  clip-path: polygon(
+    56% 32%,
+    64% 26%,
+    57% 27%,
+    63% 21%,
+    55% 22%,
+    59% 16%,
+    53% 18%,
+    51% 12%,
+    49% 18%,
+    43% 16%,
+    47% 22%,
+    39% 21%,
+    45% 27%,
+    38% 26%,
+    44% 32%
+  );
+}
+.sun-star {
+  position: relative;
+}
+.star {
+  position: absolute;
+  left: -75px;
+  width: 300px;
+  height: 250px;
+  background: white;
+  clip-path: polygon(
+    51% 0%,
+    52% 12%,
+    62% 10%,
+    58% 19%,
+    65% 23%,
+    57% 28%,
+    64% 38%,
+    52% 34%,
+    54% 46%,
+    46% 38%,
+    43% 49%,
+    40% 39%,
+    32% 45%,
+    34% 35%,
+    24% 35%,
+    31% 27%,
+    22% 22%,
+    31% 19%,
+    26% 9%,
+    36% 12%,
+    37% 0%,
+    44% 8%
+  );
+}
+.sun {
+  position: absolute;
+  top: 21px;
+  left: 15px;
+  width: 83px;
+  height: 75px;
+  border-radius: 50%;
+  background: white;
+}
+svg {
+  width: 0;
+  height: 0;
+}
